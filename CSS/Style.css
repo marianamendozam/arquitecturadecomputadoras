@@ -1,0 +1,957 @@
+/* Hoja de estilo para Página Web sobre Arquitectura de Computadora */
+
+/* Divs */
+
+div.tituloArquitectura{
+    width: 100%;
+	height: 40px;
+	background-color: #021d34;
+	font-family: sans-serif; 
+    font-size: 30px;  
+    color: #B9BCB9 ;
+    text-align: center;
+}
+
+div.unidades{
+	width: 57%;
+	height: 200px;
+	float: left;
+    font-family: Bahnschrift Light;
+	color: #000a2341;
+	text-align: center;
+}
+
+div.imagen{
+    width: 100%;
+	height: 200px;
+	float: center;
+}
+
+div.unidadU{
+    background-image: url("../Media/Images/fondo2.jpg");
+    flood-opacity: 0.1;
+    width: 100%;
+    height: 80px;
+}
+
+div.unidadDos{
+	background-image: url("../Media/Images/dosu.jpg");
+    flood-opacity: 0.10;
+    width: 100%;
+    height: 80px;
+
+}
+
+div.unidadCuatro{
+	background-image: url("../Media/Images/unidadCuatro.jpg");
+    flood-opacity: 0.10;
+    width: 100%;
+    height: 80px;
+
+}
+
+div.tareas{
+	background-image: url("../Media/Images/tareas.jpg");
+    flood-opacity: 0.10;
+    width: 100%;
+    height: 80px;
+
+}
+
+div.vonNeumann{
+    width: 50%;
+    height: 700px;
+    float: left;
+}
+
+div.harvard{
+    width: 50%;
+    height: 700px;
+    float: right;
+}
+
+div.clasica{
+    width: 100%;
+    height: 900px;
+}
+
+div.separacion{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(49, 49, 49);
+}
+
+div.segmentada{
+    width: 100%;
+    height: 1150px;
+}
+
+div.subtitulos{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(74, 226, 236);
+}
+
+div.separar{
+    width: 100%;
+    height: 1000px;
+}
+
+div.cisc{
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+
+div.intel{
+    width: 50%;
+    float:left;
+}
+
+div.nivel{
+    width: 33%;
+    float:left;
+}
+
+div.cache{
+	width: 100%;
+	height: 700px;
+}
+
+div.buses{
+	width: 100%;
+	height: 1000px;
+}
+
+div.subtitulosD{
+	width: 100%;
+    height: 30px;
+    background-color: #826FE3;
+}
+
+div.subtitulosT{
+	width: 100%;
+    height: 30px;
+    background-color: #E9925A;
+}
+
+div.subtitulosC{
+	width: 100%;
+    height: 30px;
+    background-color: #045606;
+}
+
+div.unidadTres{
+	background-image: url("../Media/Images/utres.jpg");
+    flood-opacity: 0.10;
+    width: 100%;
+    height: 80px;
+}
+
+div.entradaSalida{
+	width: 100%;
+	height: 900px;
+}
+/* titulos */
+
+h2.unidadUno{
+    font-family: Bahnschrift Light;
+	color: #7498b6;
+	font-size: 200%;
+	text-align: center;
+}
+
+h2.unidadD{
+    font-family: Bahnschrift Light;
+	color: white;
+	font-size: 200%;
+	text-align: center;
+}
+
+h2.unidadCuatro{
+    font-family: Bahnschrift Light;
+	color: black;
+	font-size: 200%;
+	text-align: center;
+}
+
+h3.modelos{
+    font-family: Bahnschrift Light;
+	color: #192064;
+	font-size: 150%;
+	text-align: center;
+}
+
+h3.funcionamiento{
+    font-family: Bahnschrift Light;
+	color: #594BA5;
+	font-size: 150%;
+	text-align: center;
+}
+
+h3.organizacion{
+    font-family: Bahnschrift Light;
+	color: #38393f;
+	font-size: 150%;
+	text-align: center;
+}
+
+h3.organizacion{
+    font-family: Bahnschrift Light;
+	color: white;
+	font-size: 150%;
+	text-align: center;
+}
+
+h3.chipset{
+    font-family: Bahnschrift Light;
+	color: #B0551A;
+	font-size: 150%;
+	text-align: center;
+}
+
+h3.procesamiento{
+    font-family: Bahnschrift Light;
+	color: #045606;
+	font-size: 150%;
+	text-align: center;
+}
+
+h5.clasicas{
+    font-family: Bahnschrift Light;
+	color: #0323b3;
+	font-size: 120%;
+	text-align: center;
+}
+
+/* parrafos */
+
+p.computadoras{
+    font-family: Microsoft JhengHei UI Light;
+	font-size: 100%;
+	color: black;
+	text-align: center;
+}
+
+/* imagenes */
+
+img.computadora{
+    content:url("../Media/Images/arquitectura.jpg");
+	width: 350px;
+	height: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.von{
+    content:url("../Media/Images/vonNeumann.png");
+    width: 350px;
+	height: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.harvard{
+    content:url("../Media/Images/harvard.png");
+    width: 350px;
+	height: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.cauce{
+    content:url("../Media/Images/cauce.jpg");
+    width: 350px;
+	height: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.cisc{
+    content:url("../Media/Images/cisc.gif");
+    width: 350px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.risc{
+    content:url("../Media/Images/risc.gif");
+    width: 350px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.cpu{
+    content:url("../Media/Images/cpu.jpg");
+    width: 450px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.amd{
+    content:url("../Media/Images/amd.jpg");
+    width: 450px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.intel{
+    content:url("../Media/Images/intel.jpeg");
+    width: 550px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.alu{
+    content:url("../Media/Images/alu.svg");
+    width: 550px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.aluDos{
+    content:url("../Media/Images/alu2.jpg");
+    width: 550px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.bus{
+	content:url("../Media/Images/bus.jpg");
+    width: 400px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;		
+}
+
+img.buses{
+	content:url("../Media/Images/buses.png");
+    width: 400px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.volatil{
+	content:url("../Media/Images/volatil.jpg");
+    width: 400px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.noVolatil{
+	content:url("../Media/Images/novolatil.jpg");
+    width: 400px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.cache{
+	content:url("../Media/Images/cache.jpg");
+    width: 500px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.niveles{
+	content:url("../Media/Images/niveles.jpg");
+    width: 500px;
+	height: 200px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.modulo{
+	content:url("../Media/Images/modulo.jpg");
+    width: 600px;
+	height: 500px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.transferencia{
+	content:url("../Media/Images/transferencia.jpg");
+    width: 400px;
+	height: 250px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.interrupciones{
+	content:url("../Media/Images/interrupciones.png");
+    width: 400px;
+	height: 250px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.acceso{
+	content:url("../Media/Images/acceso.jpg");
+    width: 400px;
+	height: 250px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.canales{
+	content:url("../Media/Images/canales.png");
+    width: 450px;
+	height: 250px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.paralelo{
+	content:url("../Media/Images/paralelo.png");
+    width: 450px;
+	height: 250px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.serie{
+	content:url("../Media/Images/serie.jpg");
+    width: 450px;
+	height: 250px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.estructura{
+	content:url("../Media/Images/estructura.png");
+    width: 450px;
+	height: 250px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.jerarquia{
+	content:url("../Media/Images/jerarquia.png");
+    width: 450px;
+	height: 350px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.interrupciones{
+	content:url("../Media/Images/interrupcionesciclo.jfif");
+    width: 700px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.organizar{
+	content:url("../Media/Images/organizar.jfif");
+    width: 600px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.registros{
+	content:url("../Media/Images/registros.jpg");
+    width: 400px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.registroscontrol{
+	content:url("../Media/Images/registroscontrol.jfif");
+    width: 400px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.ejemplos{
+	content:url("../Media/Images/ejemplos.jfif");
+    width: 400px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.ciclo{
+	content:url("../Media/Images/ciclo.png");
+    width: 400px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.segmentacion{
+		content:url("../Media/Images/segmentacion.jpg");
+		width: 600px;
+		height: 300px;
+		float: center;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;	
+}
+
+img.modos{
+	content:url("../Media/Images/modos.jpg");
+	width: 600px;
+	height: 400px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.direccionamiento{
+	content:url("../Media/Images/direccionamiento.jpg");
+	width: 500px;
+	height: 400px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.caso{
+	content:url("../Media/Images/caso.jpg");
+	width: 500px;
+	height: 100px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.casoDos{
+	content:url("../Media/Images/casodos.jpg");
+	width: 400px;
+	height: 100px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.computadoras{
+	content:url("../Media/Images/computadora.jpg");
+	width: 100%;
+	height: 100%;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.chip{
+	content:url("../Media/Images/chip.webp");
+	width: 400px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.chipDos{
+	content:url("../Media/Images/chipDos.webp");
+	width: 400px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.unidadCentral{
+	content:url("../Media/Images/ucp.jpg");
+	width: 400px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.busControl{
+	content:url("../Media/Images/buscontrol.png");
+	width: 450px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.puertas{
+	content:url("../Media/Images/puertas.jfif");
+	width: 300px;
+	height: 500px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+
+img.controlador{
+	content:url("../Media/Images/controlador.jpg");
+	width: 600px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.dma{
+	content:url("../Media/Images/dma.png");
+	width: 600px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.circuitos{
+	content:url("../Media/Images/circuitos.jpg");
+	width: 350px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.reloj{
+	content:url("../Media/Images/reloj.jpg");
+	width: 350px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.circuito{
+	content:url("../Media/Images/circuito.jfif");
+	width: 700px;
+	height: 400px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.controladores{
+	content:url("../Media/Images/controladores.jpg");
+	width: 700px;
+	height: 400px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.entrada{
+	content:url("../Media/Images/entrada.jpg");
+	width: 400px;
+	height: 200px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.salida{
+	content:url("../Media/Images/salida.jpg");
+	width: 400px;
+	height: 200px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.almacenamiento{
+	content:url("../Media/Images/almacenamiento.jpg");
+	width: 6s00px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.transformacion{
+	content:url("../Media/Images/transformacion.jfif");
+	width: 500px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.rectificacion{
+	content:url("../Media/Images/rectificacion.jfif");
+	width: 700px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+img.filtrado{
+	content:url("../Media/Images/filtrado.jfif");
+	width: 700px;
+	height: 200px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.diagrama{
+	content:url("../Media/Images/diagrama.jfif");
+	width: 500px;
+	height: 400px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.negocios{
+	content:url("../Media/Images/negocios.png");
+	width: 500px;
+	height: 400px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.industrias{
+	content:url("../Media/Images/industrias.jpg");
+	width: 500px;
+	height: 400px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.comercio{
+	content:url("../Media/Images/comercio.png");
+	width: 500px;
+	height: 400px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.procesamiento{
+	content:url("../Media/Images/procesamiento.jpg");
+	height: 400px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.aspectos{
+	content:url("../Media/Images/aspectos.jpg");
+	height: 400px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.paralelismo{
+	content:url("../Media/Images/paralelismo.jpg");
+	width: 300px;
+	height: 100px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.deDatos{
+	content:url("../Media/Images/dedatos.jpg");
+	width: 350px;
+	height: 200px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.taxonomia{
+	content:url("../Media/Images/taxonomia.PNG");
+	width: 300px;
+	height: 100px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.taxonomiaDos{
+	content:url("../Media/Images/taxonomia2.PNG");
+	width: 350px;
+	height: 200px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.SISD{
+	content:url("../Media/Images/SISD.gif");
+	width: 350px;
+	height: 200px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.SIMD{
+	content:url("../Media/Images/SIMD.png");
+	width: 300px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.MISD{
+	content:url("../Media/Images/MISD.png");
+	width: 300px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.MIMD{
+	content:url("../Media/Images/MIMD.png");
+	width: 300px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.multi{
+	content:url("../Media/Images/multi.jpg");
+	width: 300px;
+	height: 100px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.multiDos{
+	content:url("../Media/Images/multidos.jpg");
+	width: 300px;
+	height: 150px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.multiTres{
+	content:url("../Media/Images/multitres.jpg");
+	width: 300px;
+	height: 250px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.redes{
+	content:url("../Media/Images/redes.png");
+	width: 300px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img.compu{
+	content:url("../Media/Images/compu.jpg");
+	width: 450px;
+	height: 300px;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
